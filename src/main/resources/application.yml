@@ -1,0 +1,20 @@
+server:
+  port: 7070
+
+
+spring:
+  profiles:
+    active: production
+#  management:
+#    context-path: /manage
+#    security:
+#      enabled: false
+
+training:
+  val: "O chetsie definita in app yaml"
+  test:
+    enabled: true
+team:
+  name: "Liverpool"
+  player: "Someone"
+  winners: true
