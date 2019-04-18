@@ -14,9 +14,14 @@ public class MVCController {
         return "login";
     }
 
-    @PostMapping("/login")
-    public String login(@ModelAttribute User user) {
-        return "result";
+    @GetMapping("/private")
+    public String getPrivate(){
+        return "private";
     }
+
+//    @PostMapping("/login")
+//    public String login(@ModelAttribute User user) {
+//        return "result";
+//    }
 }
 

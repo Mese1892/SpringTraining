@@ -35,6 +35,7 @@ dependencies {
     compile(group: 'org.springframework.boot', name: 'spring-boot-starter-actuator', version: springBootVersion)
     compile(group: 'org.springframework.boot', name: 'spring-boot-starter-tomcat', version: springBootVersion)
     compile(group: 'org.springframework.boot', name: 'spring-boot-starter-thymeleaf', version: springBootVersion)
+    compile(group: 'org.springframework.boot', name: 'spring-boot-starter-security', version: springBootVersion)
     compile(group: 'com.hazelcast' ,name:'hazelcast', version:3.12)
     annotationProcessor "org.springframework.boot:spring-boot-configuration-processor"
 }

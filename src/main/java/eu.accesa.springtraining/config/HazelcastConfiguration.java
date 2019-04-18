@@ -1,4 +1,4 @@
-package eu.accesa.springtraining;
+package eu.accesa.springtraining.config;
 
 import com.hazelcast.config.*;
 import org.slf4j.Logger;
@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
     /**
      * @author gherman on 7/4/2018.
      */
-    @Configuration
+//    @Configuration
     public class HazelcastConfiguration {
 
         private static final Logger log = LoggerFactory.getLogger(HazelcastConfiguration.class);
